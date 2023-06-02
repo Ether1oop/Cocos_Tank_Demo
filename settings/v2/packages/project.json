@@ -1,0 +1,47 @@
+{
+  "__version__": "1.0.4",
+  "layer": [
+    {
+      "name": "UI",
+      "value": 1
+    }
+  ],
+  "sorting-layer": {
+    "layers": [
+      {
+        "id": 0,
+        "name": "default",
+        "value": 0
+      },
+      {
+        "id": 3,
+        "name": "Sorting Layer 1",
+        "value": 1
+      }
+    ],
+    "increaseId": 3
+  },
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "enemy"
+      },
+      {
+        "index": 2,
+        "name": "bullet"
+      },
+      {
+        "index": 3,
+        "name": "player"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 15,
+      "1": 13,
+      "2": 15,
+      "3": 7
+    }
+  }
+}
